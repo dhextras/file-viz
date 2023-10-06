@@ -1,0 +1,134 @@
+body {
+  background-color: #858585;
+  margin: 10px;
+}
+
+.div-style {
+  background-color: rgb(189, 186, 186);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar-elements {
+  width: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+.transparent {
+  background-color: transparent;
+  border: none;
+}
+
+.dev-text {
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 5s steps(100) infinite alternate;
+}
+
+.btn {
+  display: inline-block;
+  color: cornsilk;
+  stroke: 1px black;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.upwork-svg {
+  fill: cornsilk;
+  display: inline-block;
+  stroke: rgb(46, 46, 46);
+  stroke-width: 0.35px;
+  width: 24px;
+  height: 24px;
+  padding-top: 6px;
+}
+
+.upwork-svg:hover {
+  fill: black;
+}
+
+.btn:hover {
+  color: black;
+}
+
+#dev-container {
+  min-width: 250px;
+}
+
+#dev-content {
+  gap: 12px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+#top-text-container {
+  width: -webkit-fill-available;
+}
+
+#file-tree-container {
+  height: 90vh;
+  background-color: white;
+}
+
+#top-bar {
+  height: 5vh;
+  margin-bottom: 1vh;
+  display: flex;
+  flex-direction: row;
+  gap: 1vh;
+}
+
+.tree-extra-stuff {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40vh;
+  padding-right: 10vh;
+  padding-left: 10vh;
+  font-size: 20px;
+  color: rgb(1, 146, 61);
+}
+
+#top-text-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  white-space: nowrap;
+  max-width: 97%;
+  max-height: 4vh;
+  overflow-x: hidden;
+}
+.bounce {
+  animation: bounce 0.6s infinite alternate;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
