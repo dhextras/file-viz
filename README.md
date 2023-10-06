@@ -34,7 +34,7 @@ To run this project on your local machine, follow these steps:
 
 
 
-### Contributions
+## Contributions
 
 We welcome contributions from the community! If you'd like to contribute to this project, here are some ways you can help:
 
